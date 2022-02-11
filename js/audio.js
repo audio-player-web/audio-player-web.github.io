@@ -1,0 +1,1 @@
+window.onload=function(){var o=window.location.href.split("url=")[1];""==o&&window.location.replace("./"),document.body.innerHTML='<audio controls><source src="'+o+'" type="audio/mpeg">Your browser does not support the audio tag.</audio>'};
