@@ -1,1 +1,1 @@
-document.getElementById("form").onsubmit=function(){""!==document.getElementById("url").value&&window.location.replace("https://audio-player-web.github.io/url="+document.getElementById("url").value)};
+document.getElementById("form").onsubmit=function(e){e.preventDefault(),""!==document.getElementById("url").value&&window.location.replace("https://audio-player-web.github.io/url="+document.getElementById("url").value)};
